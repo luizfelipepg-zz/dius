@@ -19,6 +19,9 @@ public class PricingRuleFreeNewItem extends PricingRule{
     	String freeItemCode = item.getFreeItemCode();
     	Integer numberFreeItems = getListQuantity(item.getCode(), checkoutItems);
     	for(CheckoutItem checkoutItem : checkoutItems) {
+    		if (numberFreeItems == 0) {
+    			break;
+    		}
     		if(freeItemCode.equals(checkoutItem.getItem().getCode()) && checkoutItem.getPrice() != 0d) {
     			checkoutItem.setPrice(0d);
     			numberFreeItems--;

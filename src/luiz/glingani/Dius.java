@@ -1,6 +1,4 @@
 package luiz.glingani;
-import java.util.ArrayList;
-import java.util.List;
 
 import luiz.glingani.service.Checkout;
 

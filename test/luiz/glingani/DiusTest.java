@@ -64,5 +64,12 @@ public class DiusTest {
 		Double total = dius.run(args);
 		Assert.assertEquals(new Double("549.99"), total);
 	}
+	
+	@Test
+	public void test8() {
+		String[] args = {"vga", "mbp", "vga", "vga", "vga"};
+		Double total = dius.run(args);
+		Assert.assertEquals(new Double("1489.99"), total);
+	}
 
 }

@@ -1,18 +1,14 @@
 package luiz.glingani.service;
 
-import static org.junit.Assert.*;
-
 import java.util.ArrayList;
 import java.util.List;
 
-import org.easymock.EasyMock;
 import org.junit.Before;
 import org.junit.Test;
 
 import junit.framework.Assert;
 import luiz.glingani.modal.CheckoutItem;
 import luiz.glingani.modal.Item;
-import luiz.glingani.service.PricingRuleFreeNewItem;
 
 public class PricingRuleFreeNewItemTest {
 

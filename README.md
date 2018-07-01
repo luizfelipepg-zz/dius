@@ -23,6 +23,18 @@ To run the unit tests, remember to add the lib folder to the classpath. It conta
 ## Run testing
 The class DiusTest.java contains all the Example scenarios specified by Dius and few more.
 
+## Run testing
+If prefer to run from command line, just run.
+
+```sh
+javac -d out -sourcepath src src/luiz/glingani/Dius.java
+java -classpath out/ luiz.glingani.Dius {list of codes}
+```
+for example:
+```sh
+java -classpath out/ luiz.glingani.Dius "vga" "mbp"
+```
+
 ## Output
 Fell free to add/change the unit tests if you want to test a different variation of items. The application will also prompt a list of the items and the price.
 This is an example of the output:

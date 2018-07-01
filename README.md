@@ -27,6 +27,7 @@ The class DiusTest.java contains all the Example scenarios specified by Dius and
 If prefer to run from command line, just run.
 
 ```sh
+mkdir out
 javac -d out -sourcepath src src/luiz/glingani/Dius.java
 java -classpath out/ luiz.glingani.Dius {list of codes}
 ```

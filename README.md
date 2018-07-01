@@ -4,9 +4,8 @@ This repo contains an implementation of a code test requested by Dius. This demo
 As requested, I tried not taking longer than 2hours working on this project and therefore I did not finish the way I would like. I can, however, complete the unit testing if I am given more time.
 The mains objectives I tried to achieve are:
 - Easy to manage(CRUD) items and discounts
-- Clean code
-- Reusale code
-- Easy interface to create new discounts
+- Clean and easy readable code
+- Reusable code
 
 
 ## Main Class
@@ -16,16 +15,16 @@ The main class is Dius and it is inside the package luiz.glingani. This is only 
 List of items available. The information about all items "stored" into the system are inside ItemsDatbase. It is possible to see information about the discount associated to the item. New items as well as discounts can easily be added to the list
 
 ## Testing
-So far I have only added really basic testing but I am happy to spend more time if you think it is necessary. I tried not to take hours and hours as requested. 
+So far, I have only added really basic testing but I am happy to spend more time if you think it is necessary. I tried not to take more than 2 hours(even though I did) of work as requested
 
 ## Libraries
-To run the unit tests, remember to add the lib folder to the classpath
+To run the unit tests, remember to add the lib folder to the classpath. It contains Junit4
 
 ## Run testing
-The class DiusTest.java contains all the Example scenarios mentioned on the page.
+The class DiusTest.java contains all the Example scenarios specified by Dius and few more.
 
 ## Output
-Fell free to add/change the unit tests if you want to test a different variation of checkout lists. The application will also prompt a list of the items and the price.
+Fell free to add/change the unit tests if you want to test a different variation of items. The application will also prompt a list of the items and the price.
 This is an example of the output:
 ```sh
 --------------------
